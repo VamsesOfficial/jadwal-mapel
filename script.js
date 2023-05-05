@@ -3,13 +3,13 @@ var contactString = "<div class='social'> <a target='_blank' href='tel:+91860076
 var resumeString = "<img src='images/resumeThumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>Agus Resume.pdf</label></div><a href='assets/Resume.pdf' download='DEFF_Resume.pdf'><img class='download' src='images/downloadIcon.svg'></a></div>";
 var addressString = "<div class='mapview'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238.63833262443757!2d74.19014864534314!3d16.865338763272877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1a7dcf40f5dd7%3A0xd7b69fe1fcfa9877!2zMTbCsDUxJzU1LjQiTiA3NMKwMTEnMjUuMyJF!5e0!3m2!1sen!2sin!4v1645079906766!5m2!1sen!2sin' class='map'></iframe></div><label class='add'><address>'Jakarta'<br>JakBar<br>Kebon Jeruk, KebonJeruk INDONESIA 11530</address>";
 
-var senen = `[----JADWAL SENEN----]<br>B. INDONESIA<br>BK<br>MTK<br>P5`
-var selasa = `[----JADWAL SELASA---]<br>PJOK<br>SOSIOLOGI<br>BAHASA INGGRIS<br>BIOLOGI<br>FISIKA`
-var rabu = `[----JADWAL RABU----]<br>PRAMUKA<br>PPKN<br>EKONOMI<br>KIMIA<br>PKWU<br>`
-var kamis = `[----JADWAL KAMIS----]<br>INFORMATIKA<br>SEJARAH<br>GEOGRAFI<br>AGAMA<br>`
-var jumat = `[----JADWAL JUMAT----]<br>PPPPP<br>PPPPP<br>PPPPP<br>PPPPP<br>PPPPP`
-var info = `[----INGFO INGFO----]<br><br>HARI SENIN MEMBAWA BAJU OLAHRAGA<br><br>HARI SENIN-RABU MEMBAWA AL QURAN<br><br>HARI KAMIS MEMBAWA NOVEL`
-var about = `ABOUT<br><br>Dev : Agus`
+var senen = `[----JADWAL SENEN----]<br>Anggo Contoh🗿`
+var selasa = `[----JADWAL SELASA---]<br>Anggo Contoh🗿`
+var rabu = `[----JADWAL RABU----]<br>Anggo Contoh🗿`
+var kamis = `[----JADWAL KAMIS----]<br>Anggo Contoh🗿`
+var jumat = `[----JADWAL JUMAT----]<br>Anggo Contoh🗿`
+var info = `[----INGFO INGFO----]<br><br>Anggo Contoh🗿`
+var about = `ABOUT<br><br>Dev : https://wa.me/6285738639969`
 
 
 function startFunction() {
@@ -82,7 +82,7 @@ function waitAndResponce(inputText) {
     switch (inputText.toLowerCase().trim()) {
         case "intro":
             setTimeout(() => {
-            sendTextMessage("<span class='sk'>Scroll Kebawah Untuk Mengetik<br>Kirim Perintah berikut Pang twg mapel<br><span class='bold'>'#senin'</span> - Pang twg mapel hari senin<br><span class='bold'>'#selasa'</span> - Pang twg mapel hari selasa<br><span class='bold'>'#rabu'</span> - Pang twg mapel hari rabu<br><span class='bold'>'#kamis'</span> - Pang twg mapel hari kamis<br><span class='bold'>'#jumat'</span> - Pang twg mapel hari jumat<br><span class='bold'>'#info'</span> - Pang twg jadwal penting<br><span class='bold'>'#clear'</span> - Anggo ngebersihin chatan ci jk cang👍<br><span class='bold'>'#about'</span> - Owner Website</span>");
+            sendTextMessage("<span class='sk'>Scroll Kebawah Untuk Mengetik<br>Kirim Perintah Berikut Untuk Melihat Jadwal<br><span class='bold'>'#senin'</span> - Pang twg mapel hari senin<br><span class='bold'>'#selasa'</span> - Pang twg mapel hari selasa<br><span class='bold'>'#rabu'</span> - Pang twg mapel hari rabu<br><span class='bold'>'#kamis'</span> - Pang twg mapel hari kamis<br><span class='bold'>'#jumat'</span> - Pang twg mapel hari jumat<br><span class='bold'>'#info'</span> - Pang twg jadwal penting<br><span class='bold'>'#clear'</span> - Anggo ngebersihin chatan ci jk cang👍<br><span class='bold'>'#about'</span> - Owner Website</span>");
             }, 2000);
             break;
         
