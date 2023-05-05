@@ -1,6 +1,6 @@
 var audio = new Audio('assets/sentmessage.mp3');
-var contactString = "<div class='social'> <a target='_blank' href='tel:+918600765857'> <div class='socialItem' id='call'><img class='socialItemI' src='images/phone.svg'/><label class='number'>89501060783</label></div> </a> <a href='daffayudhistira93@gmail.com'> <div class='socialItem'><img class='socialItemI' src='images/gmail.svg' alt=''></div> </a> <a target='_blank' href='https://github.com/DEFF1602'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a> <a target='_blank' href='https://wa.me/6289501060783'> <div class='socialItem'><img class='socialItemI' src='images/whatsapp.svg' alt=''></div> </a> <a target='_blank' href='https://t.me/Daffa'> <div class='socialItem'><img class='socialItemI' src='images/telegram.svg' alt=''></div> </a> <a target='_blank' href='https://instagram.com/deff.xyz'> <div class='socialItem'><img class='socialItemI' src='images/instagram.svg' alt=''> </div> </a> <a href='https://www.linkedin.com/in/DEFF' target='_blank' rel='noopener noreferrer'> <div class='socialItem'><img class='socialItemI' src='images/linkedin.svg' alt=''></div> </a> </div>";
-var resumeString = "<img src='images/resumeThumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>Daffa Resume.pdf</label></div><a href='assets/Resume.pdf' download='DEFF_Resume.pdf'><img class='download' src='images/downloadIcon.svg'></a></div>";
+var contactString = "<div class='social'> <a target='_blank' href='tel:+918600765857'> <div class='socialItem' id='call'><img class='socialItemI' src='images/phone.svg'/><label class='number'>89501060783</label></div> </a> <a href='chonixbot@gmail.com'> <div class='socialItem'><img class='socialItemI' src='images/gmail.svg' alt=''></div> </a> <a target='_blank' href='https://github.com/DEFF1602'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a> <a target='_blank' href='https://wa.me/6289501060783'> <div class='socialItem'><img class='socialItemI' src='images/whatsapp.svg' alt=''></div> </a> <a target='_blank' href='https://t.me/Vamses'> <div class='socialItem'><img class='socialItemI' src='images/telegram.svg' alt=''></div> </a> <a target='_blank' href='https://instagram.com/deff.xyz'> <div class='socialItem'><img class='socialItemI' src='images/instagram.svg' alt=''> </div> </a> <a href='https://www.linkedin.com/in/DEFF' target='_blank' rel='noopener noreferrer'> <div class='socialItem'><img class='socialItemI' src='images/linkedin.svg' alt=''></div> </a> </div>";
+var resumeString = "<img src='images/resumeThumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>Agus Resume.pdf</label></div><a href='assets/Resume.pdf' download='DEFF_Resume.pdf'><img class='download' src='images/downloadIcon.svg'></a></div>";
 var addressString = "<div class='mapview'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238.63833262443757!2d74.19014864534314!3d16.865338763272877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1a7dcf40f5dd7%3A0xd7b69fe1fcfa9877!2zMTbCsDUxJzU1LjQiTiA3NMKwMTEnMjUuMyJF!5e0!3m2!1sen!2sin!4v1645079906766!5m2!1sen!2sin' class='map'></iframe></div><label class='add'><address>'Jakarta'<br>JakBar<br>Kebon Jeruk, KebonJeruk INDONESIA 11530</address>";
 
 var senen = `[----JADWAL SENEN----]<br>B. INDONESIA<br>BK<br>MTK<br>P5`
@@ -9,7 +9,7 @@ var rabu = `[----JADWAL RABU----]<br>PRAMUKA<br>PPKN<br>EKONOMI<br>KIMIA<br>PKWU
 var kamis = `[----JADWAL KAMIS----]<br>INFORMATIKA<br>SEJARAH<br>GEOGRAFI<br>AGAMA<br>`
 var jumat = `[----JADWAL JUMAT----]<br>PPPPP<br>PPPPP<br>PPPPP<br>PPPPP<br>PPPPP`
 var info = `[----INGFO INGFO----]<br><br>HARI SENIN MEMBAWA BAJU OLAHRAGA<br><br>HARI SENIN-RABU MEMBAWA AL QURAN<br><br>HARI KAMIS MEMBAWA NOVEL`
-var about = `ABOUT<br><br>Dev : Daffa.Y <br><br>Cuma modal nyolong di github<br><br>Gw gabisa ngoding`
+var about = `ABOUT<br><br>Dev : Agus`
 
 
 function startFunction() {
@@ -114,7 +114,7 @@ function waitAndResponce(inputText) {
             break;
         default:
             setTimeout(() => {
-                sendTextMessage("Gwe gabisa lu ajak ngobrol <br>Ketik perintah sesuai yg diatas aja dek<br>misalnya ketik #senen<br>buat nampilin jadwal hari senen");
+                sendTextMessage("cang sg nyidang ajak ci ngorte <br>Ketik perintah sesuaiang jk ni beduur gen liak<br>contohne ketik #senen<br>pang tawang jadwal hari senin");
             }, 2000);
             break;
     }
