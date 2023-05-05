@@ -1,6 +1,6 @@
 <p align='center'>
   <a href="https://wa.me/6289508503105"><img height="30" src="https://telegra.ph/file/74e742d63924a4b4cd625.jpg"></a>
-  <a href="https://vamsesofficial.github.io/web/"><img height="30" src="https://telegra.ph/file/e060e09151c3e49652078.jpg"</a>
+  <a href="https://vamsesofficial.github.io/jadwal-mapel/"><img height="30" src="https://telegra.ph/file/e060e09151c3e49652078.jpg"</a>
   <a href="https://instagram.com/ketutaguss_"><img height="30" src="https://telegra.ph/file/7cca9fa80113cc585dc98.jpg"></a>
 </p>
 
