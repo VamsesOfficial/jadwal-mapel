@@ -9,7 +9,7 @@ var rabu = `[----JADWAL RABU----]<br>Anggo Contoh🗿`
 var kamis = `[----JADWAL KAMIS----]<br>Anggo Contoh🗿`
 var jumat = `[----JADWAL JUMAT----]<br>Anggo Contoh🗿`
 var info = `[----INGFO INGFO----]<br><br>Anggo Contoh🗿`
-var about = `ABOUT<br><br>Dev : https://wa.me/6285738639969`
+var about = `ABOUT<br><br>Dev : Agus`
 
 
 function startFunction() {
