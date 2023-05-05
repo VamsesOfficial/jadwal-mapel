@@ -82,12 +82,12 @@ function waitAndResponce(inputText) {
     switch (inputText.toLowerCase().trim()) {
         case "intro":
             setTimeout(() => {
-            sendTextMessage("<span class='sk'>Kirim Perintah berikut untuk tahu mapel<br>e.g<br><span class='bold'>'#senen'</span> - Untuk tahu mapel hari senen<br><span class='bold'>'#selasa'</span> - Untuk tahu mapel hari selasa<br><span class='bold'>'#rabu'</span> - untuk tahu mapel hari rabu<br><span class='bold'>'#kamis'</span> - untuk tahu mapel hari kamis<br><span class='bold'>'#jumat'</span> - untuk tahu mapel hari jumat<br><span class='bold'>'#info'</span> - untuk mengetahui jadwal penting<br><span class='bold'>'#clear'</span> - Buat ngebersihin chatan lu ama gwehj<br><span class='bold'>'#about'</span> - Yg ngelola web ini ya dek</span>");
+            sendTextMessage("<span class='sk'>Scroll Kebawah Untuk Mengetik<br>Kirim Perintah berikut Pang twg mapel<br><span class='bold'>'#senin'</span> - Pang twg mapel hari senin<br><span class='bold'>'#selasa'</span> - Pang twg mapel hari selasa<br><span class='bold'>'#rabu'</span> - Pang twg mapel hari rabu<br><span class='bold'>'#kamis'</span> - Pang twg mapel hari kamis<br><span class='bold'>'#jumat'</span> - Pang twg mapel hari jumat<br><span class='bold'>'#info'</span> - Pang twg jadwal penting<br><span class='bold'>'#clear'</span> - Anggo ngebersihin chatan ci jk cang👍<br><span class='bold'>'#about'</span> - Owner Website</span>");
             }, 2000);
             break;
         
 
-        case "#senen":
+        case "#senin":
             sendTextMessage(senen);
             break;
         case "#selasa":
